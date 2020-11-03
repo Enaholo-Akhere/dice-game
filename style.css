@@ -24,7 +24,7 @@ body {
 }
 
 .main {
-  margin: 100px auto;
+  margin: 10px 100px 100px 100px auto;
   text-align: center;
   height: auto;
 }
@@ -39,8 +39,8 @@ button {
   color: white;
   overflow: hidden;
   width: 200px;
-  margin: 5px 0px, 0px, 0;
-  
+  margin: -10px 0px, 70px, 0;
+  height: 50px;
 }
 
 button:hover{
@@ -48,18 +48,18 @@ button:hover{
   transition: .5s;
   background: linear-gradient(-98deg, white, red, black) ;
   transform: scale(1,2);
-  height: 40px;
-  margin-bottom: 5px;
-  z-index: 1;
-  
-
 }
 
 p{
+  top: 200px;
   color: white;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
-  margin: 2px;
-  margin-top: 5px;
+  margin: 10px 2px 0px 2px;
+
+}
+#btn{
+  margin-bottom: 40px;
 }
 
 #div1{
@@ -70,11 +70,17 @@ p{
 #img{
   width: 300px;
   border-radius: 60px;
-  margin-bottom: 5px;
+  margin-top: 5px;
 }
 #inp{
-  margin: 20px 0px;
+  margin: -150px 0px 0px 0px;
   width: 150px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 4px;
+  color: gray;
+  border-radius: 10px;
+  border: 2px solid red;
 }
 label{
   color: white;
@@ -84,5 +90,5 @@ label{
   font-family: Charm;
   background: linear-gradient(-9deg, black, red, white) ;
   color:white;
-  margin: 0;
+  margin-bottom: 5px;
 }
