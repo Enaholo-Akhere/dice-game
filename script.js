@@ -62,7 +62,7 @@
         random = 0;
         document.getElementsByTagName("p")[0].setAttribute("id", "p")
         document.getElementsByTagName("p")[1].innerHTML = random;
-        document.getElementById("demo").innerHTML = "ROLL DIE"
+        document.getElementById("demo").innerHTML = "ROLL DICE"
         document.getElementById("p").innerHTML = "0";
         document.getElementById("demo2").innerHTML = "RESET"
         document.getElementsByTagName("p")[1].style.backgroundColor = "";
